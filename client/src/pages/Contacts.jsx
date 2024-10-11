@@ -153,11 +153,11 @@ const Contacts = () => {
               className='w-full h-[40px] outline-none rounded-md bg-gray-200 pl-4 bg-grey-400'
               placeholder='Group Name'
                />
-              {/* <Link to={`/chats/${groupId}`}> */}
+              <Link to={`/chats/${groupId}`}>
               <button onClick={createGroup} className='mt-6 w-[70%] font-bold text-white rounded-md h-[50px] bg-slate-800'>
                Start Message
               </button>
-              {/* </Link>            */}
+              </Link>           
              </div>
           )}
         </div>
